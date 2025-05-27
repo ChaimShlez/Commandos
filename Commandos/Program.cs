@@ -13,9 +13,11 @@ namespace Commandos
         static void Main(string[] args)
         {
 
-            Commando chaim = new Commando("chaim", 12122, Status.Standing);
+            Commando chaim = new Commando("chaim", "12122", Status.Standing);
             
                 Console.WriteLine(chaim.Name);
+          string s=  chaim.GetName("cddscc");
+            Console.WriteLine(s);
         }
     }
 }
