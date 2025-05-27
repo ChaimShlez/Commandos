@@ -8,5 +8,6 @@ namespace Commandos.Base
 {
     internal interface ISkyJump
     {
+        void jumping();
     }
 }

@@ -12,12 +12,19 @@ namespace Commandos
     {
         static void Main(string[] args)
         {
+            List<Commando> listCommando = new List<Commando>
+                {
+                    new AirCommando("chaim","06453",Status.Standing),
+                    new SeaCommando("ptachia","r323w4",Status.Standing),
+                    new Commando("zalosh","ce4555",Status.Standing)
+                };
 
-            Commando chaim = new Commando("chaim", "12122", Status.Standing);
-            
-                Console.WriteLine(chaim.Name);
-          string s=  chaim.GetName("cddscc");
-            Console.WriteLine(s);
+            foreach (var item in listCommando)
+            {
+                
+              
+                item.Attack();
+            }
         }
     }
 }

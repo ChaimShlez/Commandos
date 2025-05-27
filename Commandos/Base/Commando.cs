@@ -8,12 +8,12 @@ using Commandos.Enums;
 
 namespace Commandos.Entitys
 {
-    internal class Commando
+    internal  class Commando
     {
          public string Name { get; set; }
-        string CodeName { get; set; }
-        string [] Tools { get; }
-        Status Status { get; set; }
+       public string CodeName { get; set; }
+        public string [] Tools { get; }
+      public  Status Status { get; set; }
 
         public Commando(string name, string codeName, Status status)
         {
@@ -35,11 +35,11 @@ namespace Commandos.Entitys
             Status = Status.hiding;
             Console.WriteLine($"the {Name} hiding");
         }
-        public void Attack()
-        {
+        //public virtual void Attack()
+        //{
             
-            Console.WriteLine($"the {CodeName} attack");
-        }
+        //    Console.WriteLine($"the {CodeName} attack");
+        //}
 
         public string GetName(string CommandoRank)
         {
@@ -56,6 +56,13 @@ namespace Commandos.Entitys
                          "therefore cannot be accessed";
                     break;
             }
+        }
+
+
+        public virtual void Attack()
+        {
+
+            Console.WriteLine($" i'm solder and my name {Name} attack");
         }
 
 

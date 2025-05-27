@@ -43,7 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entitys\Commando.cs" />
+    <Compile Include="Base\Commando.cs" />
+    <Compile Include="Base\ISkyJump.cs" />
+    <Compile Include="Base\ISwim.cs" />
+    <Compile Include="Entitys\AirCommando.cs" />
+    <Compile Include="Entitys\SeaCommando.cs" />
+    <Compile Include="Entitys\Solder.cs" />
     <Compile Include="Entitys\Weapon.cs" />
     <Compile Include="Enums\Status.cs" />
     <Compile Include="Program.cs" />
