@@ -1,0 +1,7 @@
+D:\Users\User\devlopment\Kodecode\homeWorks\Commandos\Commandos\bin\Debug\Commandos.exe.config
+D:\Users\User\devlopment\Kodecode\homeWorks\Commandos\Commandos\bin\Debug\Commandos.exe
+D:\Users\User\devlopment\Kodecode\homeWorks\Commandos\Commandos\bin\Debug\Commandos.pdb
+D:\Users\User\devlopment\Kodecode\homeWorks\Commandos\Commandos\obj\Debug\Commandos.csproj.AssemblyReference.cache
+D:\Users\User\devlopment\Kodecode\homeWorks\Commandos\Commandos\obj\Debug\Commandos.csproj.CoreCompileInputs.cache
+D:\Users\User\devlopment\Kodecode\homeWorks\Commandos\Commandos\obj\Debug\Commandos.exe
+D:\Users\User\devlopment\Kodecode\homeWorks\Commandos\Commandos\obj\Debug\Commandos.pdb

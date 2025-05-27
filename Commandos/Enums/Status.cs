@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Commandos.Enums
 {
-    internal class Status
+    public enum Status
     {
+        Standing,
+        walking,
+        hiding
     }
 }
