@@ -20,7 +20,7 @@ namespace Commandos.Entitys
             Name = name;
             CodeName = codeName;
             Status = status;
-            Tools = new string[] { " Hammer", " chisel", " rope", "bag", "water bottle" };
+            Tools = new string[]{ " Hammer", " chisel", " rope", "bag", "water tank" };
         }
 
 
@@ -35,11 +35,7 @@ namespace Commandos.Entitys
             Status = Status.hiding;
             Console.WriteLine($"the {Name} hiding");
         }
-        //public virtual void Attack()
-        //{
-            
-        //    Console.WriteLine($"the {CodeName} attack");
-        //}
+       
 
         public string GetName(string CommandoRank)
         {
